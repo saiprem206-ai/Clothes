@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sai Clothing Store</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+<h1>Sai Clothing Store</h1>
+
+<input type="text" id="search" placeholder="Search products...">
+
+</header>
+
+<section class="products">
+
+<div class="card">
+<img src="images/shirt1.jpg" alt="Shirt">
+<h3>Premium Shirt</h3>
+<p>₹599</p>
+<button onclick="addToCart()">Add to Cart</button>
+</div>
+
+<div class="card">
+<img src="images/shirt2.jpg" alt="T-Shirt">
+<h3>Casual T-Shirt</h3>
+<p>₹399</p>
+<button onclick="addToCart()">Add to Cart</button>
+</div>
+
+<div class="card">
+<img src="images/hoodie1.jpg" alt="Hoodie">
+<h3>Winter Hoodie</h3>
+<p>₹999</p>
+<button onclick="addToCart()">Add to Cart</button>
+</div>
+
+</section>
+
+<section class="cart">
+<h2>Cart Items: <span id="cart-count">0</span></h2>
+</section>
+
+<section class="contact">
+<h2>Order on WhatsApp</h2>
+
+<a href="https://wa.me/917702663541">
+<button>Chat on WhatsApp</button>
+</a>
+
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
